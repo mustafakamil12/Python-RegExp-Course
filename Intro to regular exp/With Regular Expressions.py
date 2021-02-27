@@ -15,4 +15,3 @@ weights=regex.findall(text)
 
 #display the weights
 print(weights)
-

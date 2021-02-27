@@ -2,7 +2,7 @@
 #program to illustrate the numbered groups
 
 import re 
-text='Kalyan roll number is CS1004'
+text='Kalyan roll number is CS1004 and Mustafa roll number is CS1005'
      
 pattern=r'(CS)(\d\d\d\d)'
 regex=re.compile(pattern)

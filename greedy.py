@@ -2,7 +2,7 @@
 #program to illustrate greedy matching
 
 import re
-text='The pattern is abcabcabcabc'
+text='The pattern is abcabcabcabc and abcabc'
 
 pattern=r'a[a-z]+c'
 regex=re.compile(pattern)

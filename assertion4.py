@@ -4,7 +4,7 @@
 import re
 
 text='Values are CS1001,CS1002,CS1003,1989'
-pattern='(?<!CS)\d{4}'
+pattern=r'(?<!CS)\d{4}'
 
 regex=re.compile(pattern)
 values=regex.findall(text)

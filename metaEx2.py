@@ -6,3 +6,7 @@ regex=re.compile(pattern)
 
 numbers=regex.findall(text)
 print(numbers)
+
+PRODUCTID = "gfsDTE"
+findOut = re.match(r'^TODD',PRODUCTID)
+print(f"findOut = {findOut}")

@@ -18,5 +18,3 @@ pattern3=r'(?:\d\d\d)-(?:\d\d\d\d\d\d)'
 regex=re.compile(pattern3)
 numbers=regex.findall(text)
 print(numbers)                         #list of strings
-
-

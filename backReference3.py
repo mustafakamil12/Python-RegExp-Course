@@ -1,5 +1,5 @@
 #www.facebook.com/CSxFunda
-#program to illustrate  named  backreferences 
+#program to illustrate  named  backreferences
 
 import re
 
@@ -9,13 +9,6 @@ pattern=r'(?P<first>\d{2})(?P=first)'
 regex=re.compile(pattern)
 
 numbers=regex.finditer(text)
-#print(numbers)
+print(numbers)
 for n in numbers:
     print(n.group())
-
-
-    
-
-
-
-
